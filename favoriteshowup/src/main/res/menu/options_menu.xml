@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/setting"
+        android:title="@string/setings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search_movie"
+        android:title="@string/search_movie"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_search_tv_show"
+        android:title="@string/search_tv_show"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_reminder_setting"
+        android:title="@string/reminder_setting"
+        app:showAsAction="never"/>
+</menu>
